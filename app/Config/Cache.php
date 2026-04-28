@@ -160,6 +160,4 @@ class Cache extends BaseConfig
      */
     public $cacheQueryString = false;
 
-    public $storePath = '/tmp/cache';
-
 }
