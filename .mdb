@@ -1,0 +1,10 @@
+{
+  "projectName": "pakkio-app",
+  "meta": {
+    "type": "backend"
+  },
+  "backend": {
+    "platform": "php7.4"
+  },
+  "hash": "48ec4525"
+}
