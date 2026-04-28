@@ -9,27 +9,27 @@
 	<!--favicon-->
 	<link rel="icon" href="<?= base_url('/images/favicon-32x32.png') ?>" type="image/png" />
 	<!--plugins-->
-	<link href="<?= base_url('/plugins/vectormap/jquery-jvectormap-2.0.2.css') ?>" rel="stylesheet"/>
-	<link href="<?= base_url('/plugins/simplebar/css/simplebar.css') ?>" rel="stylesheet" />
-	<link href="<?= base_url('/plugins/perfect-scrollbar/css/perfect-scrollbar.css') ?>" rel="stylesheet" />
-	<link href="<?= base_url('/plugins/metismenu/css/metisMenu.min.css') ?>" rel="stylesheet" />
-	<link href="<?= base_url('/plugins/datatable/css/dataTables.bootstrap5.min.css') ?>" rel="stylesheet" />
-	<link href="<?= base_url('/plugins/highcharts/css/highcharts.css') ?>" rel="stylesheet" />
+	<link href="<?= base_url('app/plugins/vectormap/jquery-jvectormap-2.0.2.css') ?>" rel="stylesheet"/>
+	<link href="<?= base_url('app/plugins/simplebar/css/simplebar.css') ?>" rel="stylesheet" />
+	<link href="<?= base_url('app/plugins/perfect-scrollbar/css/perfect-scrollbar.css') ?>" rel="stylesheet" />
+	<link href="<?= base_url('app/plugins/metismenu/css/metisMenu.min.css') ?>" rel="stylesheet" />
+	<link href="<?= base_url('app/plugins/datatable/css/dataTables.bootstrap5.min.css') ?>" rel="stylesheet" />
+	<link href="<?= base_url('app/plugins/highcharts/css/highcharts.css') ?>" rel="stylesheet" />
 	<!-- loader-->
-	<link href="<?= base_url('/css/pace.min.css') ?>" rel="stylesheet" />
-	<script src="<?= base_url('/js/pace.min.js') ?>"></script>
+	<link href="<?= base_url('app/css/pace.min.css') ?>" rel="stylesheet" />
+	<script src="<?= base_url('app/js/pace.min.js') ?>"></script>
 	<!-- Bootstrap CSS -->
-	<link href="<?= base_url('/css/bootstrap.min.css') ?>" rel="stylesheet">
-	<link href="<?= base_url('/css/bootstrap-extended.css') ?>" rel="stylesheet">
+	<link href="<?= base_url('app/css/bootstrap.min.css') ?>" rel="stylesheet">
+	<link href="<?= base_url('app/css/bootstrap-extended.css') ?>" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-	<link href="<?= base_url('/css/app.css') ?>" rel="stylesheet">
-	<link href="<?= base_url('/css/icons.css') ?>" rel="stylesheet">
+	<link href="<?= base_url('app/css/app.css') ?>" rel="stylesheet">
+	<link href="<?= base_url('app/css/icons.css') ?>" rel="stylesheet">
 	<!-- Theme Style CSS -->
-	<link rel="stylesheet" href="<?= base_url('/css/dark-theme.css') ?>" />
-	<link rel="stylesheet" href="<?= base_url('/css/semi-dark.css') ?>" />
-	<link rel="stylesheet" href="<?= base_url('/css/header-colors.css') ?>" />
-	<!-- <link rel="stylesheet" href="<?= base_url('leaflet_map/leaflet.css') ?>" /> -->
-	<!-- <script src="<?= base_url('leaflet_map/leaflet.js') ?>"></script> -->
+	<link rel="stylesheet" href="<?= base_url('app/css/dark-theme.css') ?>" />
+	<link rel="stylesheet" href="<?= base_url('app/css/semi-dark.css') ?>" />
+	<link rel="stylesheet" href="<?= base_url('app/css/header-colors.css') ?>" />
+	<!-- <link rel="stylesheet" href="<?= base_url('app/leaflet_map/leaflet.css') ?>" /> -->
+	<!-- <script src="<?= base_url('app/leaflet_map/leaflet.js') ?>"></script> -->
 
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
