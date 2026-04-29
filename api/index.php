@@ -48,11 +48,21 @@ if (getcwd() . DIRECTORY_SEPARATOR !== FCPATH) {
 
 // LOAD OUR PATHS CONFIG FILE
 // This is the line that might need to be changed, depending on your folder structure.
-require FCPATH . '../app/Config/Paths.php';
-//require __DIR__ . '../app/Config/Paths.php';
+//require FCPATH . '../app/Config/Paths.php';
+require __DIR__ . '../app/Config/Paths.php';
 // ^^^ Change this line if you move your application folder
+// Verify the path exists before requiring
+if (!file_exists($pathsConfig)) {
+    die('Cannot find Paths.php at: ' . $pathsConfig);
+}
 
-$paths = new Paths();
+require $pathsConfig;
+
+$paths = new Config\Paths();
+
+// Change working directory to public folder
+chdir(__DIR__ . '/../public');
+//$paths = new Paths();
 
 // LOAD THE FRAMEWORK BOOTSTRAP FILE
 require $paths->systemDirectory . '/Boot.php';
