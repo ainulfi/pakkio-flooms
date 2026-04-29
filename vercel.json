@@ -7,12 +7,12 @@
     },
     "routes": [
         {
-        "src": "^/index\\.php$",
-        "dest": "/api/index.php"
+        "src": "/assets/(.*)",
+        "dest": "/public/assets/$1"
         },
         {
-        "src": "^/(.*\\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|map))$",
-        "dest": "/public/$1"
+        "src": "^/([^.]+)$",
+        "dest": "/api/index.php"
         },
         {
             "src": "/(.*)",
