@@ -8,11 +8,7 @@
     "routes": [
         {
         "src": "/assets/(.*)",
-        "dest": "/public/assets/$1"
-        },
-        {
-        "src": "^/([^.]+)$",
-        "dest": "/api/index.php"
+        "dest": "/api/assets/$1"
         },
         {
             "src": "/(.*)",
